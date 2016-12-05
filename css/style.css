@@ -1,0 +1,713 @@
+body {
+	background-color: #dcdcdc;
+	background-position: center center;
+	background-repeat: repeat-y;
+	background-attachment: fixed;
+	color: #000000;
+	margin: 0;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	-webkit-text-size-adjust: 100%; 
+}
+
+a{
+	color: #000000;
+	-webkit-text-size-adjust: 100%; 
+}
+
+#all{
+	background-color: #fffafa;
+	width: 990px;
+	margin: 0 auto;
+}
+h3{
+	margin-left: 50px;
+	margin-right: 55px;
+}
+/* ヘッダー */
+#header{
+	background-color: #ffffff;
+	background-repeat: no-repeat;
+	width: 990px;
+	height: 120px;
+	border-bottom: solid 1px #aaabab;
+}
+
+
+#header form{
+	text-align: right;
+	margin-right: 30px;
+}
+
+#neck{
+	width: 990px;
+	text-align: right;
+	margin-bottom: 30px;
+}
+
+#neck a{
+	margin-right: 30px;
+}
+
+/* メニュー */
+#menu{
+	margin-left: 30px;
+	width: 255px;
+	float: left;
+}
+#banner{
+	margin: 12px;
+}
+#access{
+	background:url(../image/accessb.png) repeat-y;
+	margin-top: 50px;
+	height: 300px;
+}
+
+#access p{
+	margin-left: 30px;
+}
+
+#foot{
+	background: url(../image/accessf.png);
+	height: 20px;
+	margin: 0;
+}
+/* アコーディオン */
+.accordion{
+
+    color: #fff;
+	width: 255px;
+
+    display: block;
+    margin: 0;
+
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.open {
+	display:none;
+}
+
+
+p .an{
+	display: block;
+	width: 400px;
+	height: 70px;
+	background-image: url(../image/anke.png);
+	text-indent:-9999px;
+}
+
+p .an:hover{
+	background-image: url(../image/anke2.png);
+}
+
+
+
+p .menu1{
+	display: block;
+	width: 255px;
+	height: 60px;
+	background-image: url(../image/menu1.png);
+	text-indent:-9999px;
+}
+p .menu1:hover{
+	background-image: url(../image/menu1-1.png);
+}
+p .menu2{
+	display: block;
+	width: 255px;
+	height: 60px;
+	background-image: url(../image/menu2.png);
+	text-indent:-9999px;
+}
+p .menu2:hover{
+	background-image: url(../image/menu2-1.png);
+}
+p .menu3{
+	display: block;
+	width: 255px;
+	height: 60px;
+	background-image: url(../image/menu3.png);
+	text-indent:-9999px;
+}
+p .menu3:hover{
+	background-image: url(../image/menu3-1.png);
+}
+li {
+	
+    padding: 5px;
+
+}
+
+/* メイン */
+#main{
+	width: 705px;
+	text-align: center;
+	float: right;
+
+}
+#tm{
+	width: 575px;
+	height: auto;
+	margin: 0 auto;
+}
+#tm h2{
+	font-size: 20pt;
+}
+#sd{
+	text-align: right;
+	margin-right: 30px;
+}
+#kz{
+	width: 705px;
+	
+}
+#kz div{
+	background-color: #ffffff;
+	border: dotted 2px #cab8b8;
+	overflow-y: scroll;
+	width: 570px;
+	height: 150px;
+	margin: 0 auto;
+	text-align: left;
+}
+#kz div p{
+		color: #000000;
+		margin-left: 50px;
+}
+
+#shoukai{
+    background: url(../image/shoukai.png);
+    width: 560px;
+    height: 110px;
+    margin: 0 auto;
+    text-align: right;
+	padding: 10px 40px 0 0;
+	font-size: 11px;
+}
+#list{
+    background: url(../image/list.png);
+    width: 560px;
+    height: 110px;
+    margin: 0 auto;
+    text-align: right;
+	padding: 10px 40px 0 0;
+	font-size: 11px;
+}
+#listh{
+	border-collapse: separate;
+	border : 3px #DAD7C6 solid;
+	font-size: 14px;
+	margin-left: 50px;
+	margin-right: 55px;
+}
+#listh td{
+	border-top: 3px #DAD7C6 solid;
+
+}
+#listh td{
+	height: 50px;
+}
+#listh th{
+
+	background-color: #E7E5D1
+}
+#jisseki{
+    background: url(../image/jisseki.png);
+    width: 560px;
+    height: 110px;
+    margin: 0 auto;
+    text-align: right;
+	padding: 10px 40px 0 0;
+	font-size: 11px;
+}
+#ank{
+    background: url(../image/ank.png);
+    width: 560px;
+    height: 110px;
+    margin: 0 auto;
+    text-align: right;
+	padding: 10px 40px 0 0;
+	font-size: 10px;
+}
+#jisshichuu{
+    background: url(../image/jisshityuu.png);
+    width: 560px;
+    height: 110px;
+    margin: 0 auto;
+    text-align: right;
+	padding: 10px 40px 0 0;
+	font-size: 11px;
+}
+#toku{
+    background: url(../image/tokushuu.png);
+    width: 560px;
+    height: 110px;
+    margin: 0 auto;
+    text-align: right;
+	padding: 10px 40px 0 0;
+	font-size: 11px;
+}
+#katsudou{
+    background: url(../image/katsudou.png);
+    width: 560px;
+    height: 110px;
+    margin: 0 auto;
+    text-align: right;
+	padding: 10px 40px 0 0;
+	font-size: 11px;
+}
+#dm{
+    background: url(../image/dm.png);
+    width: 560px;
+    height: 110px;
+    margin: 0 auto;
+    text-align: right;
+	padding: 10px 40px 0 0;
+	font-size: 11px;
+}
+#dm6{
+    background: url(../image/dmtazouki.png);
+    width: 560px;
+    height: 110px;
+    margin: 0 auto;
+    text-align: right;
+	padding: 10px 40px 0 0;
+	font-size: 11px;
+}
+
+.jump{
+	width: 90%;
+	margin: 0 34px 0 26px;
+}
+.mito{
+	margin: 0 10px 0 0;
+}
+#flleft{
+	float: left;
+	text-align: left;
+	font-size: 12px;
+}
+#flright{
+	float: right;
+	text-align: right;
+	font-size: 12px;
+}
+#flclear{
+	clear: both;
+}
+
+#mkj{
+	display: block;
+	text-decoration: none;
+	width: 450px;
+	margin-left: 65px;
+	margin-right: 85px;
+	font-size: 15pt;
+	border-left: 20px #f7f7f7 solid;
+}
+
+#mkj:hover{
+	border-left: 20px #ffbf9c solid;
+}
+
+#genjou{
+    background: url(../image/genjou.png);
+    width: 560px;
+    height: 110px;
+    margin: 0 auto;
+    text-align: right;
+	padding: 10px 40px 0 0;
+	font-size: 11px;
+}
+#touroku{
+    background: url(../image/touroku.png);
+    width: 560px;
+    height: 110px;
+    margin: 0 auto;
+    text-align: right;
+	padding: 10px 40px 0 0;
+	font-size: 11px;
+}
+#sjt{
+    background: url(../image/sjt.png);
+    width: 560px;
+    height: 110px;
+    margin: 0 auto;
+    text-align: right;
+	padding: 10px 40px 0 0;
+	font-size: 11px;
+}
+#eiyou{
+    background: url(../image/eiyou.png);
+    width: 560px;
+    height: 110px;
+    margin: 0 auto;
+    text-align: right;
+	padding: 10px 40px 0 0;
+	font-size: 11px;
+}
+#data{
+    background: url(../image/data.png);
+    width: 560px;
+    height: 110px;
+    margin: 0 auto;
+    text-align: right;
+	padding: 10px 40px 0 0;
+	font-size: 11px;
+}
+#kokyuu{
+    background: url(../image/kokyuu.png);
+    width: 560px;
+    height: 110px;
+    margin: 0 auto;
+    text-align: right;
+	padding: 10px 40px 0 0;
+	font-size: 11px;
+}
+#junkanki{
+    background: url(../image/junkanki.png);
+    width: 560px;
+    height: 110px;
+    margin: 0 auto;
+    text-align: right;
+	padding: 10px 40px 0 0;
+	font-size: 11px;
+}
+#taisha{
+    background: url(../image/taisha.png);
+    width: 560px;
+    height: 110px;
+    margin: 0 auto;
+    text-align: right;
+	padding: 10px 40px 0 0;
+	font-size: 11px;
+}
+#chuusuu{
+    background: url(../image/chuusuu.png);
+    width: 560px;
+    height: 110px;
+    margin: 0 auto;
+    text-align: right;
+	padding: 10px 40px 0 0;
+	font-size: 11px;
+}
+#idmc10{
+    background: url(../image/idmc.png);
+    width: 560px;
+    height: 110px;
+    margin: 0 auto;
+    text-align: right;
+	padding: 10px 40px 0 0;
+	font-size: 11px;
+}
+#book{
+    background: url(../image/book.png);
+    width: 560px;
+    height: 110px;
+    margin: 0 auto;
+    text-align: right;
+	padding: 10px 40px 0 0;
+	font-size: 11px;
+}
+
+#afmqa{
+    background: url(../image/afmqa.png);
+    width: 560px;
+    height: 110px;
+    margin: 0 auto;
+    text-align: right;
+	padding: 10px 40px 0 0;
+	font-size: 11px;
+}
+#hinto{
+    background: url(../image/hinto.png);
+    width: 560px;
+    height: 110px;
+    margin: 0 auto;
+    text-align: right;
+	padding: 10px 40px 0 0;
+	font-size: 11px;
+}
+#gakkai{
+    background: url(../image/hangakkai.png);
+    width: 560px;
+    height: 110px;
+    margin: 0 auto;
+    text-align: right;
+	padding: 10px 40px 0 0;
+	font-size: 11px;
+}
+
+#shindan{
+    background: url(../image/shindan.png);
+    width: 560px;
+    height: 110px;
+    margin: 0 auto;
+    text-align: right;
+	padding: 10px 40px 0 0;
+	font-size: 11px;
+}
+#ninshin{
+    background: url(../image/ninshin.png);
+    width: 560px;
+    height: 110px;
+    margin: 0 auto;
+    text-align: right;
+	padding: 10px 40px 0 0;
+	font-size: 11px;
+}
+#screen{
+    background: url(../image/screen.png);
+    width: 560px;
+    height: 110px;
+    margin: 0 auto;
+    text-align: right;
+	padding: 10px 40px 0 0;
+	font-size: 11px;
+}
+#video{
+    background: url(../image/video.png);
+    width: 560px;
+    height: 110px;
+    margin: 0 auto;
+    text-align: right;
+	padding: 10px 40px 0 0;
+	font-size: 11px;
+}
+#ryuiten{
+    background: url(../image/ryuiten.png);
+    width: 560px;
+    height: 110px;
+    margin: 0 auto;
+    text-align: right;
+	padding: 10px 40px 0 0;
+	font-size: 11px;
+}
+#shiteinan{
+    background: url(../image/shiryou.png);
+    width: 560px;
+    height: 110px;
+    margin: 0 auto;
+    text-align: right;
+	padding: 10px 40px 0 0;
+	font-size: 11px;
+}
+#inqol{
+    background: url(../image/inqol.png);
+    width: 560px;
+    height: 110px;
+    margin: 0 auto;
+    text-align: right;
+	padding: 10px 40px 0 0;
+	font-size: 11px;
+}
+
+#iden{
+    background: url(../image/iden.png);
+    width: 560px;
+    height: 110px;
+    margin: 0 auto;
+    text-align: right;
+	padding: 10px 40px 0 0;
+	font-size: 11px;
+}
+#kouza{
+    background: url(../image/simin.png);
+    width: 560px;
+    height: 110px;
+    margin: 0 auto;
+    text-align: right;
+	padding: 10px 40px 0 0;
+	font-size: 11px;
+}
+#link{
+    background: url(../image/link.png);
+    width: 560px;
+    height: 110px;
+    margin: 0 auto;
+    text-align: right;
+	padding: 10px 40px 0 0;
+	font-size: 11px;
+}
+
+#sub{
+    background: url(../image/subbgi.png) repeat-y;
+    width: 600px;
+    height: auto;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    text-align: left;
+    line-height : 180% ;
+    letter-spacing : 0.5px ;
+    font-size: 3;
+}
+#sub .hnt{
+	margin-left: 50px;
+display: inline-block;
+width: 19em;
+}
+
+#sub .hn{
+	margin-left: 70px;
+	margin-right: 55px;
+	text-indent: -2em;
+}
+#sub .hn2 {
+	margin-left: 91px;
+	margin-right: 55px;
+	text-indent: -3.3em;
+}
+#sub .hn3{
+	margin-left: 91px;
+	margin-right: 55px;
+	text-indent: -1.3em;
+}
+
+#sub p{
+	margin-left: 50px;
+	margin-right: 55px;
+	text-indent: 1em;
+}
+#sub ol{
+	margin-left: 50px;
+	margin-right: 55px;
+}
+.katu{
+	margin: -20px 55px 10px 80px;
+}
+.katu td{
+	vertical-align: top;
+	text-align: left;
+}
+
+#sub .katsudo{
+	margin: 10px 80px 10px 85px;
+
+}
+
+#sub .kouza{
+	margin: 10px 80px 10px 85px;
+
+}
+#sub .kouza th{
+	width: 70px;
+}
+#sub .tble{
+	margin-left: 50px;
+	margin-right: 55px;
+	border-collapse: collapse;
+	width: auto;
+}
+#sub th{
+	text-align: left;
+	padding: 2px 10px 0px 10px;
+	font-weight: normal;
+	width: 100px;
+	vertical-align: top;
+
+}
+
+#sub td{
+	text-align: left;
+	padding: 2px 10px 0px 10px;
+}
+
+#sub .mid{
+	text-align: center;
+}
+
+#sub .sitemap{
+    text-align: center;
+	margin-left: 28px;
+	margin-right: 35px;
+
+}
+#sub .tazouki{
+	margin-left: 70px;
+	margin-right: 35px;
+
+}
+
+.sitemap .mapl{
+	width: 140px;
+	vertical-align: top;
+}
+.sitemap .mapr{
+	width: 330px;
+}
+.sitemap div{
+	border: 3px #cdcec0 solid;
+}
+.sitemap a{
+	font-size: 10pt;
+}
+.sitemap .left{
+	text-align: left;
+}
+.shoukai{
+	border: 2px #feb8ba solid;
+	margin: 30px 5px;
+}
+.shoukai .mapl{
+	background-color:#feb8ba;
+}
+.ippan{
+	border: 2px #ffbf9c solid;
+	margin: 50px 5px;
+}
+.ippan .mapl{
+	background-color:#ffbf9c;
+}
+.iryou{
+	border: 2px #c2dbd5 solid;
+	margin: 50px 5px;
+}
+.iryou .mapl{
+	background-color:#c2dbd5;
+}
+.sonota{
+	border: 2px #e4dc93 solid;
+	margin: 50px 5px;
+}
+.sonota .mapl{
+	background-color:#e4dc93;
+}
+
+.ue{
+	text-align: right;
+	width: 80%;
+	border-top: 2px #a5b587 dotted;
+	margin: 0 auto;
+}
+
+.mds{
+	border-bottom: 1px #a5b587 solid;
+	border-left: 15px #cbdda9 solid;
+}
+
+#subfoot{
+	background: url(../image/subd.png);
+	width: 600px;
+	height: 18px;
+	margin: 0 auto;
+}
+/* フッター */
+#footer{
+	clear: both;
+	background-image: url(../image/footer.png);
+	width: 990px;
+	height: 135px;
+}
+#mf{
+	width: 990px;
+	height: 135px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
